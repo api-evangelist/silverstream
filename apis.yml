@@ -1,8 +1,13 @@
 aid: silverstream
 name: SilverStream
-description: 'SilverStream is a company surfaced as a portfolio company of matrix-partners and added to
-  the API Evangelist network as a stub for enrichment. Sector: b2b. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Silverstream AI builds infrastructure for autonomous AI agents, focused on making
+  web-browsing and enterprise-workflow agents reliable enough for real-world, production use. Its
+  work includes Silverstream Bench (a platform for storing, reviewing, and sharing Claude Code
+  sessions), the open Pasta-1T dataset of web trajectories for training browser agents, and
+  benchmark results such as 94% accuracy (2-sigma reliability) on ServiceNow tasks. The company
+  emerged from stealth in March 2025 with a $1.2M pre-seed round. As of this profile it publishes a
+  marketing site and product pages but no public API, developer documentation, SDK, or OpenAPI
+  surface, so most API-facing enrichment is not applicable.'
 url: https://raw.githubusercontent.com/api-evangelist/silverstream/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +15,53 @@ x-backed-by:
 - matrix-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-identity-note: 'VC linkage unverified during enrichment: the Matrix Partners public portfolio does
+  not list SilverStream, and Silverstream AI''s only disclosed backers are Gradient Ventures (Google)
+  and Vento Ventures (March 2025 pre-seed). The matrix-partners association from the originating
+  portfolio scrape could not be confirmed.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/66513634b17c0a6bb2487848/672033c7ed1cd99f73a43386_silverstream_logo_light.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - B2B
+- Artificial Intelligence
+- AI Agents
+- Autonomous Agents
+- Web Automation
+- Agent Infrastructure
+- Developer Tools
 apis: []
+common:
+- type: Website
+  url: https://www.silverstream.ai/
+- type: Blog
+  url: https://www.silverstream.ai/blog-news
+- type: Support
+  url: https://www.silverstream.ai/contact
+- type: TermsOfService
+  url: https://www.silverstream.ai/terms-condition
+- type: DomainSecurity
+  url: security/silverstream-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
