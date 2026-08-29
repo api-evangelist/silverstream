@@ -19,6 +19,17 @@ x-identity-note: 'VC linkage unverified during enrichment: the Matrix Partners p
   not list SilverStream, and Silverstream AI''s only disclosed backers are Gradient Ventures (Google)
   and Vento Ventures (March 2025 pre-seed). The matrix-partners association from the originating
   portfolio scrape could not be confirmed.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
